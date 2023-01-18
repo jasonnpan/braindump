@@ -1,0 +1,85 @@
+* {
+    font-family: 'Jost', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.todo__list {
+    display: flex;
+    flex-direction: row;
+}
+
+/* sidebar */
+.sidebar__container {
+    background-color: rgb(193, 247, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 300px;
+}
+
+.project__header {
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+}
+
+.project__item__container   {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project__item {
+    background-color: cornflowerblue;
+    width: 230px;
+    margin: 10px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+/* tasks */
+.task__container {
+    background-color: beige;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task__header {
+    background-color: bisque;
+    height: 50px;
+    width: 100%;
+    text-align: left;
+}
+
+.task__header__title {
+    margin: 0px;
+    margin-left: 20px;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.task__item__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task__item {
+    background-color: rgb(124, 203, 242);
+    width: calc(100% - 40px);
+    margin: 10px;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
